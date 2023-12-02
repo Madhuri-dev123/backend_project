@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-success" >
+            <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXrUzNGFrCA9qIzMLaS1BR4-Ix-rEkwksUGw&usqp=CAU" style="width: 80px;height: 90px;"></image>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item">
+                  <a href="/register" class="nav-link" href="#" style="position: relative;left: 950px; right: 950px;;">Register</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/login" class="nav-link" href="#"style="position: relative;left: 950px; right: 950px;;" >Login</a>
+                </li>
+              </ul>
+              
+            </div>
+          </nav>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+        <form action="/authenticate" method="post" style="text-align: center;" >
+            <input type="text"  placeholder="enter your Email" name="Emailaddress">
+            <br><br>
+            <input type="password" placeholder="enter password" name="password">
+             <br><br>
+             <button>Login</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+[
+    {
+        "id":"d1",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI7z7Dm7U3ufbdckeWSWGm3AwAzqx87K-6Dg&usqp=CAU",
+        "day":1;
+    },
+    {
+        "id":"d2",
+        "image":"https://imgmedia.lbb.in/media/2019/08/5d5d57b685ef8975e5c1f49a_1566398390851.jpg",
+        "day":2
+    },
+    {
+        "id":"d3",
+        "image":"https://imgmedia.lbb.in/media/2019/08/5d5d57b685ef8975e5c1f49a_1566398390851.jpg",
+        "day":3
+    },
+    { 
+        "id":"d4",
+        "image":"https://womensfitnessclubs.com/burlington/wp-content/uploads/sites/2/2016/06/strength-training-in-burlington-womens-gym.jpg",
+        "day":4
+
+    },
+    {
+        "id":"d5",
+        "image":"https://c8.alamy.com/comp/2H1W1NG/new-modern-gym-and-fitness-club-with-sport-equipment-2H1W1NG.jpg",
+        "day":5
+    },
+    {
+        "id":"d6",
+        "image":"https://cdn.pixabay.com/photo/2016/05/14/03/24/girl-in-the-gym-1391368_1280.jpg",
+        "day":6
+    }
+    {
+        "id":"d7",
+        "image":"https://cdn.pixabay.com/photo/2018/01/17/06/06/silhouette-3087519_640.png",
+        "day":7
+    },
+    {
+        "id":"d8",
+        "image":"https://media.istockphoto.com/id/1166468817/photo/young-female-athlete-practicing-weightlifting.jpg?s=1024x1024&w=is&k=20&c=7h_qjPrBiGGKvLPrnjusnV7C1WCA7ykV5uQryVAXUiY=",
+        "day":8
+    },
+    {
+        "id":"d9",
+        "image":"https://media.istockphoto.com/id/1211812862/photo/gym-athlete-doing-exercise-with-a-barbell.jpg?s=2048x2048&w=is&k=20&c=7D5p6n5kLTjUf4E3mp1oAa4Xkj3tkndrUZDSDz8TXhg=",
+        "day":9
+    },
+    {
+        "id":"d10",
+        "image":"https://cdn.pixabay.com/photo/2014/11/17/13/17/crossfit-534615_1280.jpg",
+        "day":10
+    }
+        
+
+]  

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table to Form Data</title>
+</head>
+<body>
+  <h1>Form Data from Table</h1>
+  <form action="/submit" method="post">
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% tableData.forEach(item => { %>
+          <tr>
+            <td><%= item.id %></td>
+            <td><%= item.name %></td>
+            <td><%= item.email %></td>
+            <!-- Add hidden input fields for each table row -->
+            <input type="hidden" name="id[]" value="<%= item.id %>">
+            <input type="hidden" name="name[]" value="<%= item.name %>">
+            <input type="hidden" name="email[]" value="<%= item.email %>">
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+    <button type="submit">Submit Form</button>
+  </form>
+</body>
+</html>
